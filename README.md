@@ -1,15 +1,13 @@
-# object.gs
-`Object`, `G`et, `S`et 
+# ogs - 'O'bject 'G'et 'S'et
+`O`bject, `G`et, `S`et 
 - +`D`el
 - +`M`ap
 
-Object getter and setter helpers.
+Object getter and setter interface.
 This solution allows to manage object fields in `fn()` way.
 
-## How to install:
-- `npm install object.gs --save`
-
-## Examples
+## Install:
+- `npm install ogs --save`
 
 ### Get
 ```javascript

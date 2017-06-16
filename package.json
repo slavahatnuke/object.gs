@@ -1,6 +1,6 @@
 {
-  "name": "object.gs",
-  "version": "0.0.2",
+  "name": "ogs",
+  "version": "0.0.1",
   "description": "object.gs",
   "main": "index.js",
   "directories": {
@@ -14,7 +14,10 @@
     "url": "git+https://github.com/slavahatnuke/object.gs.git"
   },
   "keywords": [
-    "plus-slava-scas-npm"
+    "object",
+    "get",
+    "set",
+    "map"
   ],
   "author": "slava hatnuke",
   "license": "ISC",
