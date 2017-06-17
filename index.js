@@ -88,7 +88,11 @@ const mapFunctions = function (mapping, separator) {
     let source = mapping[destination];
 
     if (!sources[source]) {
-      sources[source] = get(source, separator);
+      if(source instanceof Function) {
+        sources[source] = source;
+      } else {
+        sources[source] = get(source, separator);
+      }
     }
 
     if (!destinations[destination]) {

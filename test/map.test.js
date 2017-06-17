@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {map} = require('..');
+const {map, get} = require('..');
 
 
 describe('Map', () => {
@@ -63,6 +63,34 @@ describe('Map', () => {
       }
     ], data);
 
+  });
+
+  it('Map nested array', () => {
+    let user = {
+      userName: 'slava',
+      userComments: [
+        {
+          id: 1,
+          text: 'Hey guys'
+        },
+        {
+          id: 2,
+          text: 'Test here'
+        }
+      ]
+    };
+
+    let userMapper = map({
+      name: 'userName',
+      comments: ({userComments}) => userComments.map(get('text'))
+    });
+
+    let data = userMapper(user);
+
+    assert.deepEqual({
+      name: 'slava',
+      comments: ['Hey guys', 'Test here']
+    }, data);
   });
 
   it('Map object with nested result fields', () => {
