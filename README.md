@@ -13,7 +13,7 @@ This solution allows to manage object fields in `fn()` way.
 - `get(path, separator = '.')` -> getter(object) -> value
 - `set(path, separator = '.')` -> setter(object) -> objectSetter(value)
 - `del(path, separator = '.')` -> deleter(object)
-- `map(mapping)` -> mapper(object|array) -> result object|array
+- `map(mapping, separator = '.')` -> mapper(object|array) -> result object|array
 
 ## Spec
 
