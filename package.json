@@ -1,6 +1,6 @@
 {
   "name": "ogs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Object getter and setter interface. Manage and map objects/arrays.",
   "main": "index.js",
   "directories": {
