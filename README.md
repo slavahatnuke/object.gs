@@ -1,4 +1,4 @@
-# ogs - 'O'bject 'G'et 'S'et
+# ogs - Object / Get / Set
 `O`bject, `G`et, `S`et 
 - +`D`el
 - +`M`ap
