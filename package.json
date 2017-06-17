@@ -1,6 +1,6 @@
 {
   "name": "ogs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "object.gs",
   "main": "index.js",
   "directories": {
